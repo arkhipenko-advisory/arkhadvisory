@@ -1,0 +1,25 @@
+<svg viewBox="0 0 220 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ARKH Advisory logo">
+  <defs>
+    <linearGradient id="arkhGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1C9FD8"/>
+      <stop offset="32%" stop-color="#7A2AA0"/>
+      <stop offset="52%" stop-color="#D81C7E"/>
+      <stop offset="70%" stop-color="#ED1C5A"/>
+      <stop offset="100%" stop-color="#F47C20"/>
+    </linearGradient>
+  </defs>
+  <!-- The "A" formed by two tapered rounded strokes -->
+  <path d="M38 180 L104 28 Q110 16 117 28 L184 180" fill="none"
+        stroke="url(#arkhGrad)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bowl/hook of the A cradling the synaptic vesicle -->
+  <path d="M70 150 Q92 168 138 150" fill="none"
+        stroke="url(#arkhGrad)" stroke-width="20" stroke-linecap="round"/>
+  <!-- Synaptic vesicle (white pocket with gradient ring) -->
+  <circle cx="112" cy="120" r="33" fill="#ffffff"/>
+  <circle cx="112" cy="120" r="33" fill="none" stroke="url(#arkhGrad)" stroke-width="13"/>
+  <!-- Neurotransmitter: one vesicle + three released molecules -->
+  <circle cx="121" cy="112" r="11" fill="#ED1C5A"/>
+  <circle cx="101" cy="127" r="6.5" fill="#D81C7E"/>
+  <circle cx="116" cy="134" r="5.5" fill="#D81C7E"/>
+  <circle cx="100" cy="112" r="5" fill="#D81C7E"/>
+</svg>
